@@ -242,6 +242,7 @@ const HomeSection = ({ children }) => {
                 marginLeft: toggle ? "-100%" : "0",
                 overflowY: "scroll",
                 height: "100%",
+                paddingBottom: "5rem",
               }}
             >
               {children}
